@@ -12,7 +12,7 @@ class HelpCommand extends AbstractCommand {
 
     run(ctx) {
         if (ctx.args[0]) {
-            const command = ctx.commandRepository.getById(ctx.args[0]);
+            const command = ctx.commandRepository.getByCommandName(ctx.args[0]);
 
             ctx.channel.send(
                 new MessageEmbed()
