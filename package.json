@@ -1,0 +1,27 @@
+{
+  "name": "discord",
+  "version": "1.0.0",
+  "description": "A simple bot writen in JavaScript with NodeJs as Engine",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://www.github.com/discord"
+  },
+  "author": "okaabe",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.11.8"
+  },
+  "devDependencies": {
+    "eslint": "^7.16.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.6"
+  }
+}
