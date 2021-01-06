@@ -2,7 +2,7 @@
 <p align="center">A simple application that consumes the discord api</p>
 
 ### Setup
-For setup this application, you must to install all of the following items
+For setup this application, you must to have installed the following items
   
     - NodeJs - A javascript runtime to run javascript without a browser
     - NPM - Node Package Manager
